@@ -2,7 +2,7 @@
 
 ---
 
-### Início
+### Início:
 
 $ yarn init -y
 

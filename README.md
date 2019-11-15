@@ -1,4 +1,5 @@
-# COMEÇO BÁSICO  DE UM PROJETO BACKEND
+# Começo básico de um projeto backend
+	
 	$ yarn init -y
 
 	$ yarn add nodemon -D

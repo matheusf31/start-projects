@@ -1,24 +1,26 @@
 # Começo básico de um projeto backend
 	
-	$ yarn init -y
+$ yarn init -y
 
-	$ yarn add nodemon -D
-		package.json:
-		  scripts: {
-		    "dev": "nodemon index.js"
-		  }
-		$ yarn dev
+$ yarn add nodemon -D
+				
+	package.json:
+		scripts: {
+			"dev": "nodemon index.js"
+		}
+
+$ yarn dev
 
 ---
 	
-	Para utilizar sintaxe import/export dentro do node:
-		babel/babelnode/>sucrase<
+### Para utilizar sintaxe import/export dentro do node:
+		babel / babelnode / >sucrase<
 		$ yarn add sucrase -D
 		$ yarn sucrase-node 'local arquivo' (para rodar server)
 
 ---
 	
-	Para deixar o server rodando:
+### Para deixar o server rodando:
 		$ yarn add nodemon -D
 		package.json: 
 			"scripts": {
@@ -27,7 +29,7 @@
   		
 ---
 			
-	Para deixar rodando com o sucrase:
+### Para deixar rodando com o sucrase:
 		criar nodemon.json:
 			{
 				"execMap": {
@@ -39,7 +41,7 @@
 
 ---
 			
-	Para debuggar:
+### Para debuggar:
 		no arquivo package.json:
 			"scripts": {
 	  		...
@@ -50,11 +52,15 @@
 		$ yarn dev:debug
 		
 		no vscode:
-			debug > nova config > editar "request": "attach", tirar o program, colocar "protocol": "inspector", "restart": true
+			debug > nova config > editar:
+				"request": "attach", 
+				tirar o program e colocar:
+					"protocol": "inspector", 
+					"restart": true
 
 ---
 	
-	Configurar Eslint, Editorconfig e Prettier:
+### Configurar Eslint, Editorconfig e Prettier:
 		$ yarn add eslint -D
 		$ yarn eslint --init
 			1) Check syntax, find problems, enforce code style
@@ -115,7 +121,8 @@
 
 ---
 
-# Estrutura de pastas:
+### Estrutura de pastas:
+
 	src: 
 		app.js 		-> criar a classe app para conter os middlewares, rotas, etc
 		server.js -> atribuir uma porta ao server
@@ -133,7 +140,7 @@
 
 ---
 
-# Alguns conceitos básicos
+### Alguns conceitos básicos
 	
   - CRUD: create, read, update, delete
   

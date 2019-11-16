@@ -127,7 +127,7 @@ $ yarn dev
 
 ### Estrutura de pastas:
 
-        src: 
+  	src: 
 	  - app.js    -> criar a classe app para conter os middlewares, rotas, etc
 	  - server.js -> atribuir uma porta ao server
 	  - routes.js -> criar as rotas do server

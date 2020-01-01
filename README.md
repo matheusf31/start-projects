@@ -5,8 +5,8 @@
 ### Início:
 
 $ yarn init -y
-
 $ yarn add express
+
 ---
 	
 ### Para utilizar sintaxe import/export dentro do node:
@@ -20,8 +20,8 @@ $ yarn add express
 		$ yarn add nodemon -D
 		package.json: 
 			"scripts": {
-    			"dev": "nodemon src/server.js"
-  		},
+    				"dev": "nodemon src/server.js"
+  			},
   		
 ---
 			

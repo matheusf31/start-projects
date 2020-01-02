@@ -154,8 +154,9 @@
 	- Seeds: popular base de dados para desenvolvimento/testes (executáveis apenas por código e não são usados em produção)
 	
   - MVC: models, view, controller (estruturar pastas e arquivos)
-  	Model: Armazena abstração do banco, manipular dados nas tabelas
   	
-	Controller: Cuida das regras de negócio. Ponto de entrada das requisições. Feito com classes. Sempre retorna um JSON. Não chama outros controllers/método. Controller contém: 5 métodos, criar, listar 1, listar todos, deletar, atualizar. Nova entindade > novo controler.
+	- Model: Armazena abstração do banco, manipular dados nas tabelas
   	
-	View: Retorno ao cliente/usuário/navegador (pode ser o json para o reactJS)
+	- Controller: Cuida das regras de negócio. Ponto de entrada das requisições. Feito com classes. Sempre retorna um JSON. Não chama outros controllers/método. Controller contém: 5 métodos, criar, listar 1, listar todos, deletar, atualizar. Nova entindade > novo controler.
+  	
+	- View: Retorno ao cliente/usuário/navegador (pode ser o json para o reactJS)

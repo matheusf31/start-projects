@@ -4,8 +4,9 @@
 
 ### Início:
 
-$ yarn init -y
-$ yarn add express
+	$ yarn init -y
+	
+	$ yarn add express
 
 ---
 	

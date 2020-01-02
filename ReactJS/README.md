@@ -108,5 +108,3 @@ configurar eslintrc:
     "trailingComma": "es5"
   }
 ```
-
-## Fim

@@ -98,7 +98,7 @@ $ yarn add express
 						}
 					};
 			
-			criar prettierrc.js
+			criar .prettierrc.js
 				{
 					"singleQuote": true,
 					"trailingComma": "es5"

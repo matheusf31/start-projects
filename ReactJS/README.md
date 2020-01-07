@@ -2,40 +2,35 @@
 
 Start React project with eslint, editorconfig and prettier
 
-## Start
+## Start (com create react-app)
 
 `$ yarn create react-app 'nome do projeto'`
 
 apagar:
-  
-  - no package.json: 
-    	
-		A parte do eslint;
 
-  - na pasta public:
-			
-		Apagar o link de manifest no index.html;
-		Apagar arquivo manifest.json;
+- no package.json:
+  A parte do eslint;
 
+- na pasta public:
+  Apagar o link de manifest no index.html;
+  Apagar arquivo manifest.json;
 
-  - na pasta src:
-			
-		Deletar app.css, app.test.js, index.css, logo.svg, serviceWorker.js;
+* na pasta src:
+  Deletar app.css, app.test.js, index.css, logo.svg, serviceWorker.js;
 
-  - no index.js: 
-    	
-		Remover parte do serviceWorker, importação do serviceWorker e do css;
+* no index.js:
+  Remover parte do serviceWorker, importação do serviceWorker e do css;
 
-  - no App.js:
-	    
-		Remover logo e css;
-		Colocar apenas h1 com hello world;
+* no App.js:
+  Remover logo e css;
+  Colocar apenas h1 com hello world;
 
 ## Configurar editorconfig, eslint, prettier
 
-#### Editorconfig	
-		
+#### Editorconfig
+
 criar arquivo .editorconfig e colocar:
+
 ```
 root = true
 [*]
@@ -46,6 +41,7 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 ```
+
 #### Eslint
 
 `$ yarn add eslint -D`
@@ -59,12 +55,11 @@ $ yarn eslint --init
 5 - use a pop... - airbnb - js - Y
 ```
 
-apagar package-lock.json e $ yarn
+apagar package-lock.json e \$ yarn
 
 #### Prettier
 
 `$ yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D`
-	
 configurar eslintrc:
 
 ```
@@ -100,7 +95,7 @@ configurar eslintrc:
   };
 ```
 
-  criar .prettierrc:
+criar .prettierrc:
 
 ```
   {

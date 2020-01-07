@@ -2,6 +2,10 @@
 
 Start React project with eslint, editorconfig and prettier
 
+## Start (do zero)
+
+- Ver pasta [exemplo](/exemplo)
+
 ## Start (com create react-app)
 
 `$ yarn create react-app 'nome do projeto'`

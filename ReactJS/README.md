@@ -4,7 +4,7 @@ Start React project with eslint, editorconfig and prettier
 
 ## Start (do zero)
 
-- Ver pasta [Exemplo](../Exemplo)
+- Ver pasta [Exemplo](https://github.com/matheusf31/StartProjects/tree/master/ReactJS/Exemplo)
 
 ## Start (com create react-app)
 

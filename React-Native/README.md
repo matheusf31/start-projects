@@ -106,7 +106,7 @@ module.exports = {
 # Estrutua de pastas
 
 ```
-- src:
+src:
 
 PASTAS:
 	

@@ -108,7 +108,8 @@ module.exports = {
 ```
 - src:
 
-	PASTAS:
+PASTAS:
+	
 	- config: plugins, extensões, algo pro ambiente de desenv
 	
 	- services: configs com serviços (API, mongoDB, Apolo, axios, etc)
@@ -117,18 +118,20 @@ module.exports = {
 	
 	- assets: imagem, logos, bibliotecas de animações, etc
 	
-  - componnets: componentes que vou utilizar várias vezes na aplicação (componentes globais)
+  	- componnets: componentes que vou utilizar várias vezes na aplicação (componentes globais)
 		- Button: index.js & styles.js
 		- Background
 		
 		
-  - pages: onde fica as páginas da aplicação
-    - Login: index.js & styles.js
+  	- pages: onde fica as páginas da aplicação
+    		- Login: index.js & styles.js
   
-  - styles: onde fica os estilos comuns
+  	- styles: onde fica os estilos comuns
 	
-	ARQUIVOS:
-  - index.js -> Coloco as rotas no index.js
+ARQUIVOS:
+  	
+	- index.js -> Coloco as rotas no index.js
+	
 	- routes.js -> definições das rotas
 	
 	

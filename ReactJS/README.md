@@ -120,3 +120,25 @@ criar .prettierrc:
     "trailingComma": "es5"
   }
 ```
+
+## Para utilizar hooks
+
+`$ yarn add eslint-plugin-react-hooks -D`
+
+.eslintrc.js:
+
+```
+...
+plugins: [..., 'react-hooks],
+...
+rules: {
+  ...
+  'react-hooks/rules-of-hooks': 'error',
+  'react-hooks/exhaustive-deps': 'warn'
+  
+}
+
+```
+
+
+

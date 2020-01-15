@@ -16,18 +16,29 @@ apagar:
   A parte do eslint;
 
 - na pasta public:
-  Apagar o link de manifest no index.html;
-  Apagar arquivo manifest.json;
+  deixar apenas index.html;
+  ```
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#000000" />
+
+      <title>React App Test</title>
+    </head>
+    <body>
+      <noscript>You need to enable JavaScript to run this app.</noscript>
+      <div id="root"></div>
+    </body>
+  </html>
+  ```
 
 * na pasta src:
-  Deletar app.css, app.test.js, index.css, logo.svg, serviceWorker.js;
+  Deixar apenas App.js e index.js;
 
 * no index.js:
   Remover parte do serviceWorker, importação do serviceWorker e do css;
-
-* no App.js:
-  Remover logo e css;
-  Colocar apenas h1 com hello world;
 
 ## Configurar editorconfig, eslint, prettier
 

@@ -121,20 +121,22 @@ $ yarn add express
 
 ### Estrutura de pastas:
 
-  	src: 
-	  - app.js    -> criar a classe app para conter os middlewares, rotas, etc
-	  - server.js -> atribuir uma porta ao server
-	  - routes.js -> criar as rotas do server
+```
+src: 
+	- app.js 	(criar a classe app para conter os middlewares, rotas, etc)
+	- server.js  	(atribuir uma porta ao server)
+	- routes.js  	(criar as rotas do server)
 
-	app:          -> maioria do código de regra de negócio, lógica ou qualquer outro
-	  - controllers:
-	  - models:
+app:			(maioria do código de regra de negócio, lógica ou qualquer outro)
+	- controllers:
+	- models:
 
-	config:	      -> configurações da aplicação
-	  - database.js	-> config da base de dados (credenciais para acessar o banco)
+config:	      		(configurações da aplicação)
+	- database.js	(config da base de dados / credenciais para acessar o banco)
 
-	database:     -> tudo relativo a parte de database fora a config de conexão 
-	  - migrations:
+database:     		(tudo relativo a parte de database fora a config de conexão)
+	- migrations:
+```
 
 ---
 

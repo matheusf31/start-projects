@@ -130,6 +130,7 @@ src:
 app:			(maioria do código de regra de negócio, lógica ou qualquer outro)
 	- controllers:
 	- models:
+	- middlewares
 
 config:	      		(configurações da aplicação)
 	- database.js	(config da base de dados / credenciais para acessar o banco)

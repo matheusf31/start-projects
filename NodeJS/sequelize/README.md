@@ -1,4 +1,6 @@
-## Start
+# Sequelize
+
+### Start
 
 ```
 $ yarn add sequelize
@@ -6,7 +8,7 @@ $ yarn add sequelize
 $ yarn add sequelize-cli -D
 ```
 
-## Migrations
+### Migrations
 
 - Para criar o esboço de uma migration:
   

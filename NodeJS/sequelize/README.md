@@ -4,7 +4,6 @@
 $ yarn add sequelize
 
 $ yarn add sequelize-cli -D
-
 ```
 
 ## Migrations

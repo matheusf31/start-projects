@@ -18,10 +18,10 @@ $ yarn add sequelize-cli -D
   `$ yarn sequelize db:migrate`
 
 - Para voltar atrás na migration:
-  - Desfaz a última vez que rodou
+  - Desfaz a última migration que rodou
   	
     `$ yarn sequelize db:migrate:undo`
   
-  - Desfaz a todas que já rodou
+  - Desfaz todas as migrations rodadas
   	
     `$ yarn sequelize db:migrate:undo:all`

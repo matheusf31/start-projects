@@ -105,7 +105,7 @@ module.exports = {
 }
 ```
 
-# Estrutua de pastas
+### Estrutua de pastas
 
 ```
 src:

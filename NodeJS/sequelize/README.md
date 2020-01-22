@@ -8,6 +8,12 @@ $ yarn add sequelize
 $ yarn add sequelize-cli -D
 ```
 
+### Criar nova tabela
+
+```
+$ yarn sequelize migration:create --name=create:files
+```
+
 ### Migrations
 
 - Usage:
@@ -42,3 +48,5 @@ Options:
   --version  Show version number                                         [boolean]
   --help     Show help                                                   [boolean]
 ```
+
+

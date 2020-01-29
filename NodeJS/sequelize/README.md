@@ -14,6 +14,20 @@ $ yarn add sequelize-cli -D
 $ yarn sequelize migration:create --name=create:files
 ```
 
+### Criar nova coluna
+
+```
+$ yarn sequelize migration:create --name=add-'name'-field-to-'nametable'
+
+Na migration:
+
+return queryInterface.addColumn(
+  "nome da tabela",
+  "nome da coluna",
+  { opções }
+)
+```
+
 ### Migrations
 
 - Usage:

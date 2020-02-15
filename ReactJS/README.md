@@ -75,6 +75,7 @@ apagar package-lock.json e \$ yarn
 #### Prettier
 
 `$ yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D`
+
 configurar eslintrc:
 
 ```

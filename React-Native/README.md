@@ -108,6 +108,40 @@ module.exports = {
   "trailingComma": "es5"
 }
 ```
+### Root import
+
+```
+$ yarn add babel-plugin-root-import eslint-import-resolver-babel-plugin-root-import -D
+```
+
+- ~/babel.config.js
+
+```
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: [
+    [
+      'babel-plugin-root-import',
+      {
+        rootPathSuffix: 'src',
+      },
+    ],
+  ],
+};
+```
+
+- ~/jsconfig.json
+
+```
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["*"]
+    }
+  }
+}
+```
 
 ### Estrutua de pastas
 

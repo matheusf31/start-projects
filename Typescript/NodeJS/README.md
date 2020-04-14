@@ -23,7 +23,7 @@ $ yarn tsc --init (gera o tsconfig.json)
 
 `$ yarn add @types/"nome da lib" -D`
 
-## ts-node-dev
+## Ts node dev
 
 `$ yarn add ts-node-dev -D`
 

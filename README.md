@@ -1,7 +1,7 @@
 # Iniciar projetos Node e React
 
-[NodeJS](/NodeJS)
+[NodeJS](/Javascript/NodeJS)
 
-[ReactJS](/ReactJS)
+[ReactJS](/Javascript/ReactJS)
 
-[React-Native](/React-Native)
+[React-Native](/Javascript/React-Native)

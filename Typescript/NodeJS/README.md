@@ -106,7 +106,7 @@ $ yarn add eslint-import-resolver-typescript -D
 ## Prettier
 
 ```
-$ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+$ yarn add prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-import -D
 ```
 
 - .eslintrc.json:

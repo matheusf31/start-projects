@@ -36,6 +36,8 @@ build
 
 `$ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D`
 
+`$ yarn add eslint-import-resolver-typescript -D`
+
 configurar eslintrc:
 
 ```

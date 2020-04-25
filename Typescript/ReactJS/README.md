@@ -18,10 +18,10 @@ $ yarn eslint --init
 2 - js models
 3 - react
 4 - yes (typescript)
-5 - browser
+5 - Nenhuma
 6 - use a pop... - airbnb - json - n
 
-copy list -> $ paste
+copy list -> $ paste / remove a outra versão do hook, e remover o eslint
 ```
 
 .eslintigonore:
